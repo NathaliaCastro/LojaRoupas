@@ -15,11 +15,17 @@ public class MostruarioBean {
 		
 		pecas.add(novaPeca("Camiseta", TipoEnum.ROUPA_MASCULINA, 39.9f, "camiseta.jpg"));
 		pecas.add(novaPeca("Jeans", TipoEnum.ROUPA_MASCULINA, 60f, "calca.jpg"));
-		pecas.add(novaPeca("Moleton", TipoEnum.ROUPA_UNISSEX, 72.9f, "moletom.jpg"));
+		pecas.add(novaPeca("Calça de moleton", TipoEnum.ROUPA_UNISSEX, 72.9f, "moletom.jpg"));
 		pecas.add(novaPeca("Vestido", TipoEnum.ROUPA_FEMININA, 100f, "vestido.jpg"));
 		pecas.add(novaPeca("Terno", TipoEnum.ROUPA_MASCULINA, 150f, "terno.jpg"));
 		pecas.add(novaPeca("Relogio", TipoEnum.ACESSORIO, 95f, "relogio.jpg"));
 		pecas.add(novaPeca("Short", TipoEnum.ROUPA_FEMININA, 39.9f, "short.jpg"));
+		pecas.add(novaPeca("Vestido para meninas", TipoEnum.ROUPA_INFANTIL, 35.99f, "azul-listrado.jpg"));
+		pecas.add(novaPeca("Blusa de alça", TipoEnum.ROUPA_FEMININA, 19.99f, "blusa-preta.jpg"));
+		pecas.add(novaPeca("Brincos de prata", TipoEnum.ACESSORIO, 9.9f, "brincos.jpg"));
+		pecas.add(novaPeca("Blusas de frio", TipoEnum.ROUPA_UNISSEX, 69.9f, "moletom-familia.jpg"));
+		pecas.add(novaPeca("Pulseiras", TipoEnum.ACESSORIO, 9.9f, "pulseiras.jpg"));
+
 	}
 
 	// Inserir novas roupas
