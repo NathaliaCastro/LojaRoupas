@@ -19,7 +19,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
-							<h3>Mostruário</h3>
+							<h3>Mostruario</h3>
 						</div>
 					</div>
 
@@ -34,8 +34,7 @@
 
 										<div class="card-body">
 
-											<img class="card-img"
-												src="assets/img/mostruario/${ peca.nomeImagem }">
+											<img class="card-img" src="assets/img/mostruario/${ peca.nomeImagem }">
 
 											<div class="card-title text-center mt-4">
 												<div class="badge badge-dark badge-pill">
@@ -51,8 +50,9 @@
 										<div class="card-footer text-center">
 											<div class="btn-group">
 												<button type="submit" name="adicionar"
-													value="${ peca.codigo }" class="btn btn-primary">Adicionar</button>
-												<a class="btn btn-info" href="#">Veja mais</a>
+													value="${ peca.codigo }" class="btn btn-outline-success">Adicionar</button>
+													
+												<a class="btn btn-outline-primary" href="#">Ver mais</a>
 											</div>
 										</div>
 
@@ -67,8 +67,8 @@
 
 							<form method="get">
 								<div class="form-group">
-									<label for="tipos">Tipos</label> <select multiple
-										name="tipo" class="form-control" id="tipos">
+									<label for="tipos">Moda</label> 
+									<select multiple name="tipo" class="form-control" id="tipos">
 										<c:forEach items="${ tipos }" var="tipo">
 											<option value="${ tipo.codigo }">${ tipo.nome }</option>
 										</c:forEach>
@@ -77,7 +77,7 @@
 
 								<div class="btn-group">
 									<button class="btn btn-warning" type="reset">Limpar</button>
-									<button class="btn btn-primary">Filtrar</button>
+									<button class="btn btn-dark">Filtrar</button>
 								</div>
 
 							</form>

@@ -8,7 +8,7 @@
 		<ul class="list-unstyled">
 			<li><a class="btn btn-outline-danger btn-lg m-2" href=" <c:url value="/" /> ">Página Inicial</a></li>
 			<li><a class="btn btn-outline-danger btn-lg m-2" href=" <c:url value="/mostruario" /> ">Mostruário</a></li>
-			<li><a class="btn btn-outline-danger btn-lg m-2" href=" <c:url value="/sacola" /> ">Sacola</a></li>
+			<li><a class="btn btn-outline-danger btn-lg m-2" href=" <c:url value="/carrinho" /> ">Carrinho</a></li>
 		</ul>
 	</nav>
 </div>

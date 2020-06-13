@@ -3,8 +3,8 @@ package com.nathaliacastro.nathsstore.business.enums;
 public enum TipoEnum {
 	
 	// Cria objetos ENUM de acordo com o construtor privado
-		ROUPA_MASCULINA("Roupa Masculina", 0), ROUPA_FEMININA("Roupa Feminina", 1),
-		ROUPA_UNISSEX("Roupa Unissex", 2), ROUPA_BANHO("Banho", 3);
+		ROUPA_MASCULINA("Masculina", 0), ROUPA_FEMININA("Feminina", 1),
+		ROUPA_UNISSEX("Inverno", 2), ROUPA_BANHO("Acessórios", 3);
 
 		private String nome;
 		private Integer codigo;

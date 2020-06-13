@@ -12,6 +12,7 @@ public class MostruarioBean {
 		
 		// Criar lista de roupas
 		pecas = new ArrayList<>();
+		
 		pecas.add(novaPeca("Camiseta", TipoEnum.ROUPA_MASCULINA, 39.9f, "camiseta.jpg"));
 		pecas.add(novaPeca("Jeans", TipoEnum.ROUPA_UNISSEX, 60f, "calca.jpg"));
 		pecas.add(novaPeca("Moleton", TipoEnum.ROUPA_UNISSEX, 72.9f, "moletom.jpg"));

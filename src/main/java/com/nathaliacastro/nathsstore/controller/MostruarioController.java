@@ -19,7 +19,7 @@ import com.nathaliacastro.nathsstore.business.enums.TipoEnum;
  * Servlet implementation class MostruarioController
  */
 @WebServlet("/mostruario")
-public class MostruarioController {
+public class MostruarioController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	private MostruarioBean mostruarioBean;
@@ -79,7 +79,7 @@ public class MostruarioController {
 		}
 
 		// Envia o JSP na solicitacao
-		request.getRequestDispatcher("/catalogo.jsp").forward(request, response);
+		request.getRequestDispatcher("/mostruario.jsp").forward(request, response);
 	}
 
 	/**
