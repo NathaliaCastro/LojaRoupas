@@ -12,13 +12,13 @@ public class MostruarioBean {
 		
 		// Criar lista de roupas
 		pecas = new ArrayList<>();
-		pecas.add(novaPeca("Camisetas", TipoEnum.ROUPA_MASCULINA, 49.9f, "camisa.jpg"));
-		pecas.add(novaPeca("Jeans", TipoEnum.ROUPA_UNISSEX, 80f, "calca.jpg"));
-		pecas.add(novaPeca("Moleton", TipoEnum.ROUPA_UNISSEX, 15f, "regata.jpg"));
-		pecas.add(novaPeca("Vestido", TipoEnum.ROUPA_FEMININA, 120f, "vestido.jpg"));
-		pecas.add(novaPeca("Saias", TipoEnum.ROUPA_FEMININA, 70.99f, "macacao.jpg"));
-		pecas.add(novaPeca("Blusas", TipoEnum.ROUPA_FEMININA, 80f, "roupa-de-gravida.jpg"));
-		pecas.add(novaPeca("Toalhas", TipoEnum.ROUPA_BANHO, 45.99f, "roupa-de-verao.jpg"));
+		pecas.add(novaPeca("Camiseta", TipoEnum.ROUPA_MASCULINA, 39.9f, "camiseta.jpg"));
+		pecas.add(novaPeca("Jeans", TipoEnum.ROUPA_UNISSEX, 60f, "calca.jpg"));
+		pecas.add(novaPeca("Moleton", TipoEnum.ROUPA_UNISSEX, 72.9f, "moletom.jpg"));
+		pecas.add(novaPeca("Vestido", TipoEnum.ROUPA_FEMININA, 100f, "vestido.jpg"));
+		pecas.add(novaPeca("Terno", TipoEnum.ROUPA_MASCULINA, 150f, "terno.jpg"));
+		pecas.add(novaPeca("Relogio", TipoEnum.ROUPA_MASCULINA, 95f, "relogio.jpg"));
+		pecas.add(novaPeca("Short", TipoEnum.ROUPA_FEMININA, 39.9f, "short.jpg"));
 	}
 
 	// Inserir novas roupas
