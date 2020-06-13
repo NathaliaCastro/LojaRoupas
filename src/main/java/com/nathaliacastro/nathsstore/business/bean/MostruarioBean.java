@@ -14,11 +14,11 @@ public class MostruarioBean {
 		pecas = new ArrayList<>();
 		
 		pecas.add(novaPeca("Camiseta", TipoEnum.ROUPA_MASCULINA, 39.9f, "camiseta.jpg"));
-		pecas.add(novaPeca("Jeans", TipoEnum.ROUPA_UNISSEX, 60f, "calca.jpg"));
+		pecas.add(novaPeca("Jeans", TipoEnum.ROUPA_MASCULINA, 60f, "calca.jpg"));
 		pecas.add(novaPeca("Moleton", TipoEnum.ROUPA_UNISSEX, 72.9f, "moletom.jpg"));
 		pecas.add(novaPeca("Vestido", TipoEnum.ROUPA_FEMININA, 100f, "vestido.jpg"));
 		pecas.add(novaPeca("Terno", TipoEnum.ROUPA_MASCULINA, 150f, "terno.jpg"));
-		pecas.add(novaPeca("Relogio", TipoEnum.ROUPA_MASCULINA, 95f, "relogio.jpg"));
+		pecas.add(novaPeca("Relogio", TipoEnum.ACESSORIO, 95f, "relogio.jpg"));
 		pecas.add(novaPeca("Short", TipoEnum.ROUPA_FEMININA, 39.9f, "short.jpg"));
 	}
 
