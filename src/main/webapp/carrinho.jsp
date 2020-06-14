@@ -44,10 +44,12 @@
 
 								<td class="text-center align-middle"><img
 									style="width: 10vw; height: auto;"
-									src="assets/img/catalogo/${ peca.nomeImagem }"></td>
+									src="assets/img/mostruario/${ peca.nomeImagem }">
+								</td>
+									
 								<td class="text-center align-middle">
 									<form method="post">
-										<button class="btn btn-danger" name="remover" value="${ index.count }">Limpar</button>
+										<button class="btn btn-danger" name="excluir" value="${ index.count }">Deletar</button>
 									</form>
 								</td>
 							</tr>

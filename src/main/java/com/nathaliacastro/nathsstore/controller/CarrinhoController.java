@@ -61,7 +61,7 @@ public class CarrinhoController extends HttpServlet {
 		
 		// Usuario clicou em excluir
 		String indexString = request.getParameter("excluir");
-		int index = Integer.parseInt(indexString) - 1; // Count e 1-based
+		int index = Integer.parseInt(indexString) -1;
 		
 		// Restaura o carrinho
 		HttpSession session = request.getSession();
